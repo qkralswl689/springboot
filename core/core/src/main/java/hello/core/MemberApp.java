@@ -5,6 +5,7 @@ import hello.core.member.Member;
 import hello.core.member.MemberService;
 import hello.core.member.MemberServiceImpl;
 
+// 안좋은 방법이다 : 눈으로 봐야해서 => 번지수가 다른걸 테스트할 수 없다
 public class MemberApp {
 
     public static void main(String[] args){
