@@ -26,6 +26,7 @@ public class OrderServiceImpl implements OrderService{
         int discountPrice = discountPolicy.discount(member, itemPrice);
 
         // Order객체를 생성해 변수값을 리턴한다
+        // 생성과 동시에 리턴
         return new Order(memberId,itemName,itemPrice,discountPrice);
     }
     
