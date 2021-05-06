@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu May 06 15:16:46 KST 2021
+junit-jupiter-5.7.1-sources.jar>central=
+junit-jupiter-5.7.1.jar>central=
+junit-jupiter-5.7.1.pom>central=
