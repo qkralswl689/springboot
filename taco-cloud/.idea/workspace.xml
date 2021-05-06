@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ac4f4ec-5f82-436c-9cd7-ddcf5adf7d89" name="Default Changelist" comment="" />
+    <list default="true" id="4ac4f4ec-5f82-436c-9cd7-ddcf5adf7d89" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/taco-cloud/src/main/java/tacos/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/taco-cloud/src/main/java/tacos/web/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/taco-cloud/src/main/resources/static/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/taco-cloud/src/main/resources/templates/design.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/taco-cloud/src/main/resources/templates/orderForm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taco-cloud/src/main/java/tacos/controller/DesignTacoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/taco-cloud/src/main/java/tacos/controller/DesignTacoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taco-cloud/src/main/java/tacos/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/taco-cloud/src/main/java/tacos/controller/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taco-cloud/src/main/java/tacos/domain/Ingredient.java" beforeDir="false" afterPath="$PROJECT_DIR$/taco-cloud/src/main/java/tacos/domain/Ingredient.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +23,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="Class" />
       </list>
     </option>
@@ -36,6 +47,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -47,8 +59,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="" />
       <recent name="tacos" />
+      <recent name="" />
     </key>
   </component>
   <component name="RunManager" selected="Application.TacoCloudApplication">

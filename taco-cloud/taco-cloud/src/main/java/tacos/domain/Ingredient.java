@@ -5,7 +5,6 @@ import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import lombok.Setter;
 
-import java.lang.reflect.Type;
 
 @Data
 @RequiredArgsConstructor
