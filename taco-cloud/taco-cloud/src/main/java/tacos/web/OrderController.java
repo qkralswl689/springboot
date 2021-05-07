@@ -27,6 +27,8 @@ public class OrderController {
     @PostMapping
     public String processOrder(@Valid Order order, Errors errors) {
         if (errors.hasErrors()) {
+
+            // orderForm 을 리턴한다
             return "orderForm";
         }
 

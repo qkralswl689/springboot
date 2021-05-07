@@ -16,7 +16,7 @@ public class MemberApp {
         // MemberService memberService = new MemberServiceImpl();
         // Member 객체 생성하여 id,name,grade 매개변수로 넣는다
         
-        // spring 코드 생성
+        // spring 컨테이너 생성
         ApplicationContext applicationContext = new AnnotationConfigApplicationContext(AppConfig.class);
 
         // memberService 객체 찾기 , 타입

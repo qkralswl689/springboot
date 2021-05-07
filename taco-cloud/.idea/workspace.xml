@@ -5,25 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ac4f4ec-5f82-436c-9cd7-ddcf5adf7d89" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_7_0_1_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_1_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_annotations_20_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taco-cloud/src/main/java/tacos/Taco.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taco-cloud/src/main/java/tacos/web/DesignTacoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taco-cloud/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/taco-cloud/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taco-cloud/src/main/java/controller/HomeController.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/taco-cloud/src/main/java/tacos/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/taco-cloud/src/main/java/tacos/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taco-cloud/src/main/java/tacos/controller/DesignTacoController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/taco-cloud/src/main/java/tacos/domain/Ingredient.java" beforeDir="false" afterPath="$PROJECT_DIR$/taco-cloud/src/main/java/tacos/Ingredient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taco-cloud/src/main/java/tacos/domain/Taco.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/taco-cloud/src/main/java/tacos/web/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/taco-cloud/src/main/java/tacos/web/OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taco-cloud/src/main/resources/static/images/TacoCloud.png" beforeDir="false" afterPath="$PROJECT_DIR$/taco-cloud/src/main/resources/static/images/TacoCloud.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/taco-cloud/src/main/resources/templates/orderForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/taco-cloud/src/main/resources/templates/orderForm.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
