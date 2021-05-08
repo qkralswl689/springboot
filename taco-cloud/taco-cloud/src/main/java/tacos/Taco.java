@@ -1,6 +1,8 @@
 package tacos;
 
 import lombok.Data;
+
+import java.util.Date;
 import java.util.List;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
@@ -8,6 +10,9 @@ import javax.validation.constraints.Size;
 
 @Data
 public class Taco {
+
+    private Long id;
+    private Date createdAt;
 
     // @NotNull, @Size() : 유효성 검사 규칙 선언
 

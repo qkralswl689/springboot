@@ -13,15 +13,15 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.test.web.servlet.MockMvc;
-import tacos.controller.HomeController;
+
 
 // HomeController의 웹 페이지 테스트
-@WebMvcTest(HomeController.class)
+@WebMvcTest
 public class HomeControllerTest {
     // MockMvc 주입
     @Autowired
     private MockMvc mockMvc;
-    
+
     @Test
     public void testHomePage() throws Exception {
                         // GET /을 수행

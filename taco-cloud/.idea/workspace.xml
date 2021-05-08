@@ -5,14 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ac4f4ec-5f82-436c-9cd7-ddcf5adf7d89" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_2_4_5.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_7_0_1_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_1_7_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_annotations_20_1_0.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/taco-cloud/src/main/java/tacos/web/WebConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/taco-cloud/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/taco-cloud/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taco-cloud/src/main/resources/templates/orderForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/taco-cloud/src/main/resources/templates/orderForm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taco-cloud/src/main/java/tacos/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/taco-cloud/src/main/java/tacos/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taco-cloud/src/main/java/tacos/Taco.java" beforeDir="false" afterPath="$PROJECT_DIR$/taco-cloud/src/main/java/tacos/Taco.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taco-cloud/src/main/java/tacos/controller/HomeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taco-cloud/src/test/java/tacos/HomeControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/taco-cloud/src/test/java/tacos/HomeControllerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +66,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TacoCloudApplication">
+  <component name="RunManager" selected="JUnit.HomeControllerTest">
     <configuration name="TacoCloudApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tacos.TacoCloudApplication" />
       <module name="taco-cloud" />
@@ -77,6 +76,14 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in taco-cloud" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="taco-cloud" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -130,9 +137,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TacoCloudApplication" />
         <item itemvalue="JUnit.HomeControllerTest" />
         <item itemvalue="JUnit.HomeControllerTest.testHomePage" />
+        <item itemvalue="JUnit.All in taco-cloud" />
+        <item itemvalue="Application.TacoCloudApplication" />
         <item itemvalue="JUnit.TacoCloudApplicationTests.contextLoads" />
       </list>
     </recent_temporary>
@@ -159,5 +167,24 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/taco-cloud/src/test/java/tacos/HomeControllerTest.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/taco-cloud/src/test/java/tacos/HomeControllerTest.java</url>
+          <line>25</line>
+          <properties class="tacos.HomeControllerTest" method="testHomePage">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
