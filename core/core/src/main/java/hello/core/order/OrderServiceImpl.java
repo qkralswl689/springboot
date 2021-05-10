@@ -33,4 +33,9 @@ public class OrderServiceImpl implements OrderService{
     // => 주문생성(createOrder)요청이 오면 -> 회원 정보 조회(findById) -> 할인 정책 적용(discount) 
     // -> 주문 객체 생성하여 반환(return new Order)
     // MemoryMemberRepository 와 FixDiscountPolicy 을 구현체로 생성한다
+
+    //테스트 용도
+    public MemberRepository getMemberRepository() {
+        return memberRepository;
+    }
 }

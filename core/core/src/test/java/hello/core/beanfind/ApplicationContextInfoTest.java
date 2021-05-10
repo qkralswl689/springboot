@@ -7,12 +7,13 @@ import org.springframework.beans.factory.config.BeanDefinition;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 public class ApplicationContextInfoTest {
-
+                                                // AnnotationConfigApplicationContext : DI 등록
     AnnotationConfigApplicationContext ac = new AnnotationConfigApplicationContext(AppConfig.class);
 
     @Test
     @DisplayName("모든 빈 출력하기")
     void findAllBean(){
+                                        // getBeanDefinitionNames : 스프링에 등록된 모든 빈 이름 조회
         String[] beanDefinitionNames = ac.getBeanDefinitionNames();
         for (String beanDefinitionName : beanDefinitionNames) {
             Object bean = ac.getBean(beanDefinitionName);

@@ -20,15 +20,21 @@ public class AppConfig {
     // @Bean => 붙혀주면 스프링 컨테이너에 저장된다
     @Bean
     public MemberService memberService(){
+        //1번
+        System.out.println("call AppConfig.memberService");
         return new MemberServiceImpl(memberRepository());
     }
 
     @Bean
     public MemberRepository memberRepository() {
+        //2번? 3번?
+        System.out.println("call AppConfig.memberRepository");
         return new MemoryMemberRepository();
     }
     @Bean
     public OrderService orderService() {
+        //1번
+        System.out.println("call AppConfig.orderService");
         return new OrderServiceImpl(
                 memberRepository(), discountPolicy());
     }
