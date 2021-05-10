@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ac4f4ec-5f82-436c-9cd7-ddcf5adf7d89" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/taco-cloud/src/main/java/tacos/web/WebConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taco-cloud/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/taco-cloud/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taco-cloud/src/main/java/tacos/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/taco-cloud/src/main/java/tacos/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taco-cloud/src/main/java/tacos/Taco.java" beforeDir="false" afterPath="$PROJECT_DIR$/taco-cloud/src/main/java/tacos/Taco.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taco-cloud/src/main/java/tacos/controller/HomeController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/taco-cloud/src/test/java/tacos/HomeControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/taco-cloud/src/test/java/tacos/HomeControllerTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="4ac4f4ec-5f82-436c-9cd7-ddcf5adf7d89" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
