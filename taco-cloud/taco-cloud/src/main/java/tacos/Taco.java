@@ -21,7 +21,10 @@ public class Taco {
     @Size(min=5, message="Name must be at lease 5 characters long")
     private String name;
 
-
+    // jdbc연결 위해 변경
+ /* @Size(min=1, message="You must choose at lease 1 ingredient")
+    private List<String> ingredients;*/
+    
     @Size(min=1, message="You must choose at lease 1 ingredient")
-    private List<String> ingredients;
+    private List<Ingredient> ingredients;
 }
