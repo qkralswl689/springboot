@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ac4f4ec-5f82-436c-9cd7-ddcf5adf7d89" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../core/core/src/test/java/hello/core/beanfind/ApplicationContextExtendsFindTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../core/core/src/test/java/hello/core/beanfind/ApplicationContextExtendsFindTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../core/core/src/test/java/hello/core/singleton/SingletonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../core/core/src/test/java/hello/core/singleton/SingletonService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../core/core/src/test/java/hello/core/singleton/SingletonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../core/core/src/test/java/hello/core/singleton/SingletonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/taco-cloud/src/main/java/tacos/data/JdbcOrderRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taco-cloud/src/main/java/tacos/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/taco-cloud/src/main/java/tacos/Order.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
