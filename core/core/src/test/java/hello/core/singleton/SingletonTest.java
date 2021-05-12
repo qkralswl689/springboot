@@ -32,7 +32,7 @@ public class SingletonTest {
     @Test
     @DisplayName("싱글톤 패턴을 적용한 객체 사용")
     void singletonServiceTest(){
-        //private으로 생성자를 막아두었다. 컴파일 오류가 발생한다.
+        //private 으로 생성자를 막아두었다. 컴파일 오류가 발생한다.
         //new SingletonService();
 
         //1. 조회: 호출할 때 마다 같은 객체를 반환
