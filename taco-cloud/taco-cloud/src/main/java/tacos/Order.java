@@ -7,15 +7,16 @@ import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Pattern;
 import org.hibernate.validator.constraints.CreditCardNumber;
 
+
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
 @Data
-public class Order {
+public class Order  {
 
     private Long id;
-    private Date createdAt;
+    private Date placedAt;
 
     @NotBlank(message="Name is required")
     private String deliveryName;

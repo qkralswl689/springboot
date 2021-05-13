@@ -14,7 +14,7 @@ import java.util.List;
 import java.util.Map;
 
 
-@@Repository
+@Repository
 public class JdbcOrderRepository implements OrderRepository{
 
     private SimpleJdbcInsert orderInserter;
@@ -55,19 +55,31 @@ public class JdbcOrderRepository implements OrderRepository{
         return order;
     }
 
+    // 실제 저장하는 일 => saveOrderDetails(),saveTacoToOrder() 메서드에서 처리한다
+    // execute() , executeAndReturnKey() : 데이터를 추가하는 메서드
+    // 두 메서드 모두 Map<String,Object> 를 이자로 받는다 
+    // => Map의 키 : 데이터가 추가되는 테이블의 열(column) 이름과 대응
+    // => Map의 값 : 해당 열에 추가되는 값
      private long saveOrderDetails(Order order) {
         @SuppressWarnings("uncheked")
+        // objectMapper.convertValue(order, Map.class) : order 를 Map 으로 변환
         Map<String, Object> values = objectMapper.convertValue(order, Map.class);
+        // Map 이 생성되면 키가 placedAt 인 항목의 값을 Order 객체의 placedAt 속성 값으로 변경한다
+         // => objectMapper 는 Date 타입의 값을 long 타입의 값으로 변환해 Taco_Order 테이블의 placedAt 열과 타입이 호환되지 않기 때문
         values.put("placedAt", order.getPlacedAt());
-
+        
+        // executeAndReturnKey() : 해당 주문 데이터가 Taco_Order 테이블에 저장된 후 DB에서 생성된 ID가 Number 객체로 반환된다
+         // 따라서 연속으로 longValue()를 호출하여 saveOrderDetails() 메서드에서 반환하는 long 타입으로 변환할 수 있다
         long orderId = orderInserter.executeAndReturnKey(values).longValue();
         return orderId;
     }
 
     private void saveTacoToOrder(Taco taco, long orderId) {
+        // 객체를 Map 으로 변환하기 위해 ObjectMapper 를 사용하는 대신 Map을 생성하고 각 항목에 적합한 값을 설정한다
         Map<String,Object> values = new HashMap<>();
         values.put("tacoOrder", orderId);
         values.put("taco", taco.getId());
+        // exexute() 메서드 호출하여 데이터를 저장한다
         orderTacoInserter.execute(values);
     }
 }
