@@ -7,6 +7,7 @@ import lombok.Setter;
 
 
 @Data
+// @RequiredArgsConstructor : 생성자를 만들어준다
 @RequiredArgsConstructor
 @Getter
 @Setter

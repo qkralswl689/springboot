@@ -90,7 +90,7 @@ public class DesignTacoController {
                 .collect(Collectors.toList());
     }
 
-    // @ModelAttribute(name = "order") : ㅒㄱㅇㄷㄱ rorcprk ahepfdp todtjdehlehfhr gownsek
+    // @ModelAttribute(name = "order") : Order rorcprk ahepfdp todtjdehlehfhr gownsek
     @ModelAttribute(name = "order")
     public Order order(){
         return new Order();
