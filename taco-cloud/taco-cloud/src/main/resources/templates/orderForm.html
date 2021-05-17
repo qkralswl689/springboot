@@ -31,6 +31,7 @@
 	<span class="validationError"
 		  th:if="${#fields.hasErrors('deliveryName')}"
 		  th:errors="*{deliveryName}">Name Error</span>
+			<!-- *{deliveryName} : 별이 붙으면  th:object="${order} 이 기준이 되어 order에 있는 객체를 가리킨단-->
 	<br />
 
 	<label for="deliveryStreet">Street address: </label>
