@@ -23,12 +23,18 @@ public class OrderController {
 
     private OrderRepository orderRepo;
 
-    public OrderController(OrderRepository orderRepo){
+    public OrderController(OrderRepository orderRepo) {
         this.orderRepo = orderRepo;
     }
-    @GetMapping("/current")
+    // order 객체 세션 보전하기위해 아래처럼 변경
+/*    @GetMapping("/current")
     public String orderForm(Model model) {
         model.addAttribute("order", new Order());
+        return "orderForm";
+    }*/
+    
+    @GetMapping("/current")
+    public String orderForm() {
         return "orderForm";
     }
 

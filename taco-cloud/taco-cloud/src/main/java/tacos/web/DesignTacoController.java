@@ -1,24 +1,26 @@
 package tacos.web;
 
 import java.util.ArrayList;
-
 import java.util.List;
 import java.util.stream.Collectors;
-
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.beans.factory.annotation.Autowired;
 
 import lombok.extern.slf4j.Slf4j;
-import tacos.Order;
 import tacos.Taco;
+import tacos.Order;
 import tacos.Ingredient;
 import tacos.Ingredient.Type;
+import tacos.data.IngredientRepository;
 import javax.validation.Valid;
 import org.springframework.validation.Errors;
-import tacos.data.IngredientRepository;
 import tacos.data.TacoRepository;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.SessionAttributes;
 
 
 @Slf4j
@@ -90,7 +92,7 @@ public class DesignTacoController {
                 .collect(Collectors.toList());
     }
 
-    // @ModelAttribute(name = "order") : Order rorcprk ahepfdp todtjdehlehfhr gownsek
+    // @ModelAttribute(name = "order") : Order 객체가 모델에 생성되도록 해준다
     @ModelAttribute(name = "order")
     public Order order(){
         return new Order();
