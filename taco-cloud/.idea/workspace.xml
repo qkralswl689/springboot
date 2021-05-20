@@ -4,7 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ac4f4ec-5f82-436c-9cd7-ddcf5adf7d89" name="Default Changelist" comment="" />
+    <list default="true" id="4ac4f4ec-5f82-436c-9cd7-ddcf5adf7d89" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_ldap_2_4_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_2_4_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_ldap_2_4_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_ldap_spring_ldap_core_2_3_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_4_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_4_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_ldap_5_4_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_test_5_4_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_4_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/taco-cloud/src/main/java/tacos/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/taco-cloud/src/main/java/tacos/data/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/taco-cloud/src/main/java/tacos/security/NoEncodingPasswordEncoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/taco-cloud/src/main/java/tacos/security/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/taco-cloud/src/main/resources/users.ldif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taco-cloud/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/taco-cloud/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taco-cloud/src/main/java/tacos/TacoCloudApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/taco-cloud/src/main/java/tacos/TacoCloudApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taco-cloud/src/main/java/tacos/data/IngredientRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/taco-cloud/src/main/java/tacos/data/IngredientRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taco-cloud/src/main/java/tacos/data/JdbcIngredientRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taco-cloud/src/main/java/tacos/data/JdbcOrderRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taco-cloud/src/main/java/tacos/data/JdbcTacoRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taco-cloud/src/main/java/tacos/data/OrderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/taco-cloud/src/main/java/tacos/data/OrderRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taco-cloud/src/main/java/tacos/data/TacoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/taco-cloud/src/main/java/tacos/data/TacoRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taco-cloud/src/main/java/tacos/web/IngredientByIdConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/taco-cloud/src/main/java/tacos/web/IngredientByIdConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taco-cloud/src/main/resources/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/taco-cloud/src/main/resources/data.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taco-cloud/src/main/resources/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/taco-cloud/src/main/resources/schema.sql" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,8 +41,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -45,7 +72,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/taco-cloud/src/main/resources" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -53,6 +80,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\springboot\springboot\taco-cloud\taco-cloud\src\main\resources" />
       <recent name="D:\springboot\springboot\taco-cloud\taco-cloud\src\main\resources\templates" />
       <recent name="D:\springboot\springboot\taco-cloud\taco-cloud\src\main\resources\static\images" />
       <recent name="D:\springboot\springboot\taco-cloud\taco-cloud\src\main\resources\static" />
@@ -174,7 +202,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/taco-cloud/src/main/java/tacos/TacoCloudApplication.java</url>
-          <line>6</line>
+          <line>10</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
