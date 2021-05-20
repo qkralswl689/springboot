@@ -5,32 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ac4f4ec-5f82-436c-9cd7-ddcf5adf7d89" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_ldap_2_4_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_2_4_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_ldap_2_4_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_ldap_spring_ldap_core_2_3_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_4_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_4_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_ldap_5_4_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_test_5_4_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_4_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taco-cloud/src/main/java/tacos/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taco-cloud/src/main/java/tacos/data/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taco-cloud/src/main/java/tacos/security/NoEncodingPasswordEncoder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taco-cloud/src/main/java/tacos/security/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taco-cloud/src/main/resources/users.ldif" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taco-cloud/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/taco-cloud/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taco-cloud/src/main/java/tacos/TacoCloudApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/taco-cloud/src/main/java/tacos/TacoCloudApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taco-cloud/src/main/java/tacos/data/IngredientRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/taco-cloud/src/main/java/tacos/data/IngredientRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taco-cloud/src/main/java/tacos/data/JdbcIngredientRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/taco-cloud/src/main/java/tacos/data/JdbcOrderRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/taco-cloud/src/main/java/tacos/data/JdbcTacoRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/taco-cloud/src/main/java/tacos/data/OrderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/taco-cloud/src/main/java/tacos/data/OrderRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taco-cloud/src/main/java/tacos/data/TacoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/taco-cloud/src/main/java/tacos/data/TacoRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taco-cloud/src/main/java/tacos/web/IngredientByIdConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/taco-cloud/src/main/java/tacos/web/IngredientByIdConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taco-cloud/src/main/resources/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/taco-cloud/src/main/resources/data.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taco-cloud/src/main/resources/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/taco-cloud/src/main/resources/schema.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taco-cloud/src/main/java/tacos/security/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/taco-cloud/src/main/java/tacos/security/SecurityConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

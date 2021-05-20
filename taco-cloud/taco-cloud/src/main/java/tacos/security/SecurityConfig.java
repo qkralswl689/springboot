@@ -62,18 +62,33 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .passwordEncoder(new NoEncodingPasswordEncoder());*/
 
         // LDAP 기반 사용자 스토어
+        // ldapAuthentication() : LDAP 기반 인증으로 스프링 시큐리티를 구성하기 위해 사용
         auth.ldapAuthentication()
+                
+            // userSearchBase() : 사용자를 찾기 위한 기준점 쿼리 제공
             .userSearchBase("ou=people")
             .userSearchFilter("(uid={0})")
+
+            // groupSearchBase() : 그룹을 찾기 위한 기준점 쿼리 지정
             .groupSearchBase("ou=groups")
             .groupSearchFilter("member={0}")
             .contextSource()
+                
+            // root() : 내장 LDAP 서버의 루트 경로를 지정
             .root("dc=tacocloud,dc=com")
-                // classpath의 루트에서 users.ldif 파일을 찾아 LDAP 서버로 데이터를 로드하라고 요청한다
+
+            // classpath의 루트에서 users.ldif 파일을 찾아 LDAP 서버로 데이터를 로드하라고 요청한다
             .ldif("classpath:users.ldif")
             .and()
+
+            // passwordCompare() : 비밀번호를 비교하는 방법으로 LDAP 인증을 하려고 할 때 사용하는 메서드
             .passwordCompare()
+                
+            // passwordEncoder() : 암호화에 사용할 인코더 지정
             .passwordEncoder(new BCryptPasswordEncoder())
+                
+            // passwordAttribute("userPasscode") : 비밀번호 속성의 이름 지정 => 전달된 비밀번호와 userPasscode 속성 값이 비교되어야 한다는것 지정
+            // -> 비번 속성 이름 변경하지 않을 때 기본적으로 userPasscode가 된다
             .passwordAttribute("userPasscode");
     }
 }
