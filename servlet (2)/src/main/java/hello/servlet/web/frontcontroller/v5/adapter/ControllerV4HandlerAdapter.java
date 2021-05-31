@@ -12,6 +12,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class ControllerV4HandlerAdapter implements MyHandlerAdapter {
+
     @Override
     public boolean supports(Object handler) {
         return (handler instanceof ControllerV4);
